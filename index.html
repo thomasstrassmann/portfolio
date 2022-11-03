@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDS - Welcome to Web Development Strassmann</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./js.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./img/Final-Logo2.png" alt="Logo of Web Development Strassmann" id="logo-header">
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Tech-Stack</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Imprint</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="animation">
+            <div class="animation-logo animation-logo-background">
+                <img src="./img/left.png" class="left" >
+                <img src="./img/right.png" class="right" >
+            </div>
+            <div class="animation-text animation-text-trigger">
+            <!-- <img src="./img/Final-Logo-Transparent-Color-space.png" class="logo"> -->
+                <img src="./img/Final-Logo-Transparent-Color-Letters-cut.png" class="text">
+             </div>
+        </div>
+        
+        <button onclick="topFunction()" id="top" title="Go to top">&uarr;</button>
+
+        <section id="hero">
+            <div id="hero-filter">
+            <div id="hero-code"><h1></h1></div>
+            <button type="button" id="contact"></button>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3 id="personal-heading">Personal Homepage</h3>
+            <img src="./img/Screenshot-personal.png" alt="Screenshot of personal homepage" id="screenshot-personal"/>
+            <div id="personal-text">
+                <p>Project goal: To introduce myself to the Web-Dev-Community.<br><br>
+                Features: Responsive Layout, Flexbox & Grid, Animations (Logo-Animations with Intersection Observer API / Typewriting-Effect / Hover-Effects), form to submit.</p>
+            </div>
+            <div id="personal-technologies">
+                <p>Technologies used: HTML, CSS, JavaScript, Figma</p>
+                <div class="logos">
+                    <img src="./img/icons/icons8-html-5-96.png" alt="HTML Logo">
+                    <img src="./img/icons/icons8-css3-96.png" alt="CSS Logo">
+                    <img src="./img/icons/icons8-javascript-96.png" alt="JaveScript Logo">
+                    <img src="./img/icons/icons8-figma-96.png" alt="Figma Logo">
+                </div>
+            </div>
+
+            <h3 id="spa">Single Page Application</h3>
+            <p id="screenshot-spa">Coming Soon!</p>
+            <div id="spa-text">
+                <p>Project goal: To showcase intermediate to advanced knowledge of React and Redux with complex state-management<br><br>
+                Features: Coming Soon!</p>
+            </div>
+            <div id="spa-logos">
+                <p>Technologies used: React, Redux</p>
+                <div class="logos">
+                    <img src="./img/icons/icons8-react-native-96.png" alt="React Logo">
+                    <img src="./img/icons/icons8-redux-96.png" alt="Redux Logo">
+                </div>
+            </div>
+            
+            <article id="Online Shop">
+                
+            </article>
+        </section>
+
+        <section id="techstack">
+            <h2>Tech-Stack &lt;/></h2>
+            <p>An overview of all languages ​​and programs that are be used during project realization.</p>
+            <div id="tech-container">
+                <figure><img src="./img/icons/icons8-html-5-96.png" alt="HTML Logo"><figcaption>HTML</figcaption></figure>
+                <figure><img src="./img/icons/icons8-css3-96.png" alt="CSS Logo"><figcaption>CSS</figcaption></figure>
+                <figure><img src="./img/icons/icons8-javascript-96.png" alt="JavaScript Logo"><figcaption>JavaScript</figcaption></figure>
+                <figure><img src="./img/icons/icons8-react-native-96.png" alt="React Logo"><figcaption>React</figcaption></figure>
+                <figure><img src="./img/icons/icons8-redux-96.png" alt="Redux Logo"><figcaption>Redux</figcaption></figure>
+                <figure><img src="./img/icons/icons8-git-96.png" alt="Git Logo"><figcaption>Git</figcaption></figure>
+                <figure><img src="./img/icons/icons8-github-96.png" alt="GitHub Logo"><figcaption>GitHub</figcaption></figure>
+                <figure><img src="./img/icons/icons8-figma-96.png" alt="Figma Logo"><figcaption>Figma</figcaption></figure>
+                <figure><img src="./img/icons/icons8-gimp-96.png" alt="Gimp Logo"><figcaption>GIMP</figcaption></figure>
+                <figure><img src="./img/icons/icons8-adobe-creative-cloud-96.png" alt="Adobe Creative Cloud Logo"><figcaption>Adobe Creative Cloud</figcaption></figure>
+            </div>
+
+
+
+        </section>
+        
+        <section id="about-me-effect">
+            <h2>About me</h2>
+            <article id="about-me">
+                <img src="./img/Foto2.jpg" alt="Photo of Thomas with his dog" id="photo">
+                <p>Hello and welcome to my portfolio homepage! <br>
+                I'm Thomas, a Web Developer from Germany and I've recently turned my hobby into my profession, 
+                as I'm a certified web developer with a diploma in full stack development.<br><br> 
+                Before that, I worked as a key account manager / head of sales in the digital field for a long time. 
+                However, at the end of a working day I never really saw what I had accomplished or achieved. 
+                In the field of web development, it's a different story: 
+                What drives me is creating things out of nothing & seeing instant results. Solving problems is my passion!<br><br>
+                If you have any questions about me or general projects, just use the contact form anytime! 
+                May be it makes sense to work together, whether it is a permanent position, a single project, or just exchanging ideas.  I look forward to your request!</p>
+            </article>
+        </section>
+
+
+
+        <section id="quoteblock">
+            <aside id="quote">"There is no Web-Development without Self-Development!" </aside>
+            <p>If you are missing some technologies, 
+            which could be beneficial for you and / or your project, just contact 
+            me. The main advantage of programming languages is, that the more languages you learn,
+            the quicker you learn them and a relative fast switch to new technologies is very likely!</p>
+        </section>
+
+        <section>
+            <h3>Contact me to talk about your projects!</h3>
+            <form>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
